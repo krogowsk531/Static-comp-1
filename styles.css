@@ -10,7 +10,7 @@
 
 .cards {
   background-color: #FFFFFF;
-  border: 2px solid #1F1F3D;
+  border: 2px groove #1F1F3D;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -18,7 +18,7 @@
 
 .grid-img {
   width: 100%;
-  height: 40%;
+  height: 60%;
   object-fit: cover;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid black;
+  border: 1px groove black;
 }
 
 .card-top {
@@ -41,16 +41,22 @@ body {
 }
 
 
-h3 {
-  color: #FFFFFF;
-  display: inline-flex;
-  padding: 10px;
+h1 {
+  color: #757575;
 }
+
+h3 {
+  color: #CFD8DC;
+  display: inline-flex;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+
 
 nav {
   display: inline-flex;
   background-image: url(https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
-  padding: 10px 0;
   border: 2px solid black
 }
 
@@ -62,11 +68,14 @@ nav {
 .user-name {
   height: 20px;
   width: 20px;
+  margin: 0em 0;
 }
 
 .logo {
-  height: 60px;
+  height: 70px;
   width: 90px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .logo-position {
@@ -93,14 +102,17 @@ nav {
 .menu {
   height: 20px;
   width: 20px;
+  padding-left: 20px;
 }
 
 .video {
   height: 20px;
   width: 20px;
+  padding-left: 20px;
 }
 
 .pushpin {
   height: 20px;
   width: 20px;
+  padding-left: 10px;
 }
