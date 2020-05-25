@@ -38,9 +38,14 @@
 }
 
 body {
+  /* font-family: Verdana, Helvetica, sans-serif; */
   background-image: url(https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
 }
 
+p {
+  padding-left: 5px;
+  font-style: italic;
+}
 
 h1 {
   color: #757575;
