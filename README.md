@@ -49,7 +49,7 @@ Using box shadow to add to a multi dimensional website.
 
 **iPhone View**
 
-![iPhone View](assets/iphone-view.png)
+![iPhone View](assets/iPhone-view.png)
 
 
 
