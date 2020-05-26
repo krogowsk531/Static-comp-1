@@ -21,38 +21,38 @@ This was a solo project that was designed to create a website of your own based 
 * Using grid and flex-box to get your ideal layout.
 * Making overlay images responsive was a challenge.
 
-<!-- **Wins**
+**Wins**
 
-* Working with JS in a collaborative environment to a deadline.
-* Teamwork that lead to professional development growth.
-* All functionality is working through Iteration 5.
+* Using HTML and CSS only to create a creative website with a strict deadline.
+* Utilizing colors and textures that created a strong webpage.
+* Working with Grid and Flex-box to create a responsive webpage that adapts to many different screen sizes.
 
 **Programming Languages Used**
 
 HTML
 CSS
-JavaScript
 
 **Other Important Features Implemented**
 
-Saving and removing cover components from arrays respective of functionality. -->
-<!-- Smooth movement between page transition utilizing buttons.
+Implementing overlay icons.
+Using box shadow to add to a multi dimensional website.
 
-## In Action
+## Finished Project
 
-**Randomize and Save Covers**
+**Full Screen View**
 
-![Randomize and Save Covers](https://media.giphy.com/media/mFeIf7Rdc2jGYTQwrh/giphy.gif)
+![Full Screen View](assets/Standard-screen.png)
 
-**Create Your Own Cover**
+**iPad View**
 
-![Create Your Own Cover](https://media.giphy.com/media/LoD7JgRIgtmG0dT1yI/giphy.gif)
+![iPad View](assets/ipad-view.png)
+
+**iPhone View**
+
+![iPhone View](assets/iphone-view.png)
 
 
-## Comps Given -->
-<!--
-![Home View](https://frontend.turing.io/projects/module-1/assets/romcom/romcom-random.png)
 
-![Form View](https://frontend.turing.io/projects/module-1/assets/romcom/romcom-form.png)
+## Comp Given
 
-![Saved Covers View](https://frontend.turing.io/projects/module-1/assets/romcom/romcom-saved.png) -->
+![Full Screen View](https://frontend.turing.io/assets/images/static-comp-challenge-2.jpg)
