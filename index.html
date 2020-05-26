@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css">
@@ -9,20 +8,26 @@
   <body>
     <nav>
       <div class="top-nav">
-        <img class="user-name" src="assets/diamonds.png"/>
-        <h3>Username</h3>
+        <h3>
+          <img class="user-name" src="assets/diamonds.png"/>
+          Username
+          <img class="user-name" src="assets/diamonds.png"/>
+        </h3>
       </div>
       <div class="another-div">
         <div class="left-side-nav">
-          <img class ="pushpin" src="assets/pushpin.png"/>
+          <img class="pushpin" src="assets/pushpin.png"/>
           <h3>Idea Board</h3>
-          <img class ="menu" src="assets/menu.png"/>
+          <img class="design-style" src="assets/star.png"/>
           <h3>Design Style</h3>
-          <img class ="video" src="assets/play3.png"/>
+          <img class="video" src="assets/play3.png"/>
           <h3>Videos</h3>
         </div>
-        <div class = "logo-position">
-          <img class ="logo" src="assets/design-board-logo.png"/>
+        <div class="logo-position">
+          <img class="logo" src="assets/design-board-logo.png"/>
+        </div>
+        <div class="drop-down">
+          <img class="menu" src="assets/menu.png"/>
         </div>
       </div>
     </nav>
@@ -30,52 +35,62 @@
       <h1>Idea Board</h1>
     </main>
     <section class="cards-grid">
-        <article class="grid-item">
-          <!-- <div class="top-grid">
-          <img class ="pushpin" src="assets/pushpin.png"/>
-          <p>Industrial</p>
-          </div> -->
-          <img src="https://images.unsplash.com/photo-1579019169915-d1313c3c9d7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" class="grid-img" alt="Image 1"/>
-          <p>Industrial</p>
-          <!-- <div class="bottom-grid">
-          <img src="https://images.unsplash.com/photo-1482350325005-eda5e677279b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="texture-2" alt="Texture 2"/>
-          <img src="https://images.unsplash.com/photo-1567309254107-5babef35b7b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80" class="texture-1" alt="Texture 1"/>
-          <img src="https://images.unsplash.com/photo-1571162180908-5796c9a08f95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="texture-3" alt="Texture 3"/>
-          </div> -->
-          <img class="pushpin-white-1" src="assets/pushpin-white.png"/>
-        </article>
-        <article class="grid-item">
-          <img src="https://images.unsplash.com/photo-1533044309907-0fa3413da946?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="grid-img" alt="Image 2"/>
-          <!-- <img class="pushpin-white-2" src="assets/pushpin-white.png"/> -->
-          <p>Mid Century Modern</p>
-        </article>
-        <figure class="grid-item grid-item-3">
-          <img src="https://www.stylemotivation.com/wp-content/uploads/2014/01/19-Fantastic-Nautical-Interior-Design-Ideas-for-Your-Home-2.jpg" class="grid-img" alt="Image 3"/>
-          <p>Nautical</p>
-        </figure>
-        <figure class="grid-item grid-item-4">
-          <img src="https://images.unsplash.com/photo-1589644178307-41189a507135?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" class="grid-img" alt="Image 4"/>
-          <p>Scandinavian</p>
-        </figure>
-        <figure class="grid-item grid-item-5">
-          <img src="https://images.unsplash.com/photo-1566152474719-8d79ca1a4c66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2884&q=80" class="grid-img" alt="Image 5"/>
-          <img class="pushpin-white-5" src="assets/pushpin-white.png"/>
-          <p>Bohemian</p>
-        </figure>
-        <figure class="grid-item grid-item-6">
-          <img src="https://www.decoraid.com/wp-content/uploads/2018/06/Modern-Farmhouse-Style-Interior.jpg" class="grid-img" alt="Image 6"/>
-          <p>Farmhouse</p>
-        </figure>
-        <figure class="grid-item grid-item-6">
-          <img src="https://www.decoraid.com/wp-content/uploads/2018/08/urban-modern-decorating-guide.jpg" class="grid-img" alt="Image 7"/>
-          <p>Urban Modern</p>
-        </figure>
-        <figure class="grid-item grid-item-8">
-          <img src="https://cdn.decorilla.com/online-decorating/wp-content/uploads/2019/05/shabby-chic-interior-design-kitchen.jpg" class="grid-img" alt="Image 8"/>
-          <p>Shabby Chic</p>
-        </figure>
-    </section>
-    <section>
+      <article class="grid-item">
+        <img class="grid-img" src="https://images.unsplash.com/photo-1579019169915-d1313c3c9d7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="Image 1"/>
+        <p>Industrial</p>
+        <span class="web-address">For More Design Inspiration: <a href='https://www.decorilla.com/online-decorating/industrial-interior-design-10-best-tips-for-mastering-your-rustic-industrial-decor-style/'>look here!</a></span>
+        <p class="views">Views 12</p>
+        <img class="pushpin-white" src="assets/pushpin-white.png"/>
+      </article>
+      <article class="grid-item">
+        <img class="grid-img" src="https://images.unsplash.com/photo-1533044309907-0fa3413da946?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" alt="Image 2"/>
+        <p>Mid Century Modern</p>
+        <span class="web-address">For More Design Inspiration: <a href="https://www.decoraid.com/blog/interior-design-style/mid-century-modern-interior-design">look here!</a></span>
+        <p class="views">Views 7</p>
+        <img class="pushpin-white" src="assets/pushpin-white.png"/>
+      </article>
+      <article class="grid-item">
+        <img class="grid-img" src="https://www.stylemotivation.com/wp-content/uploads/2014/01/19-Fantastic-Nautical-Interior-Design-Ideas-for-Your-Home-2.jpg" alt="Image 3"/>
+        <p>Nautical</p>
+        <span class="web-address">For More Design Inspiration: <a href="https://www.stylemotivation.com/19-fantastic-nautical-interior-design-ideas-home/">look here!</a></span>
+        <p class="views">Views 25</p>
+        <img class="pushpin-white" src="assets/pushpin-white.png"/>
+      </article>
+      <article class="grid-item">
+        <img class="grid-img" src="https://images.unsplash.com/photo-1589644178307-41189a507135?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="Image 4"/>
+        <p>Scandinavian</p>
+        <span class="web-address">For More Design Inspiration: <a href="https://freshome.com/inspiration/scandinavian-interior-design-ideas/">look here!</a></span>
+        <p class="views">Views 11</p>
+        <img class="pushpin-white" src="assets/pushpin-white.png"/>
+      </article>
+      <article class="grid-item">
+        <img class="grid-img" src="https://images.unsplash.com/photo-1566152474719-8d79ca1a4c66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2884&q=80" alt="Image 5"/>
+        <img class="pushpin-white" src="assets/pushpin-white.png"/>
+        <p>Bohemian</p>
+        <span class="web-address">For More Design Inspiration: <a href="https://www.decoraid.com/blog/interior-design-style/bohemian-style-interior-design">look here!</a></span>
+        <p class="views">Views 3</p>
+      </article>
+      <article class="grid-item">
+        <img class="grid-img" src="https://www.decoraid.com/wp-content/uploads/2018/06/Modern-Farmhouse-Style-Interior.jpg" alt="Image 6"/>
+        <p>Farmhouse</p>
+        <span class="web-address">For More Design Inspiration: <a href="https://homebnc.com/best-rustic-farmhouse-interior-design-ideas/">look here!</a></span>
+        <p class="views">Views 31</p>
+        <img class="pushpin-white" src="assets/pushpin-white.png"/>
+      </article>
+      <article class="grid-item">
+        <img class="grid-img" src="https://www.decoraid.com/wp-content/uploads/2018/08/urban-modern-decorating-guide.jpg" alt="Image 7"/>
+        <p>Urban Modern</p>
+        <span class="web-address">For More Design Inspiration: <a href="https://www.eya.com/blog/how-to-get-the-urban-modern-design-style-in-your-home">look here!</a></span>
+        <p class="views">Views 9</p>
+        <img class="pushpin-white" src="assets/pushpin-white.png"/>
+      </article>
+      <article class="grid-item">
+        <img class="grid-img" src="https://cdn.decorilla.com/online-decorating/wp-content/uploads/2019/05/shabby-chic-interior-design-kitchen.jpg" alt="Image 8"/>
+        <p>Shabby Chic</p>
+        <span class="web-address">For More Design Inspiration: <a href="https://www.architectureartdesigns.com/15-delightful-shabby-chic-interior-design-ideas/">look here!</a></span>
+        <p class="views">Views 15</p>
+        <img class="pushpin-white" src="assets/pushpin-white.png"/>
+      </article>
     </section>
   </body>
 </html>
